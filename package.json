@@ -1,0 +1,46 @@
+{
+  "name": "hapi-typescript-reminder-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "start": "node build/index.js",
+    "setup": "npm install"
+  },
+  "author": "Eka Aditya Wibowo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-tslint": "^4.3.4",
+    "mocha": "^3.3.0",
+    "tslint": "^3.13.0",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "@types/hapi": "16.0.0",
+    "@types/nconf": "0.0.33",
+    "@types/node": "^7.0.5",
+    "@types/sequelize": "^4.0.40",
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.7",
+    "boom": "^4.2.0",
+    "dotenv": "^4.0.0",
+    "glob": "^7.1.1",
+    "gulp-sequence": "^0.4.6",
+    "hapi": "^16.1.0",
+    "hapi-sequelize": "^3.0.4",
+    "joi": "^10.4.2",
+    "moment": "^2.17.1",
+    "nconf": "^0.8.4",
+    "path": "^0.12.7",
+    "pg": "^6.1.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "sequelize": "^3.30.1"
+  }
+}
